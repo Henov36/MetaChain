@@ -1,0 +1,196 @@
+@media(max-width:1286px) {
+	.footer {
+		.footer__contant {
+			padding: 0px 80px 40px 80px;
+
+			.footer__contant-logo {
+				.h4__withLogo {
+					img {
+						width: 55px;
+						height: 55px;
+					}
+
+					h4 {
+						font-size: 40px;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1140px) {
+	.header {
+		&__nav {
+			padding-left: 180px !important;
+		}
+	}
+
+	h1 {
+		font-size: 80px;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+
+	p,
+	li {
+		font-size: 14px;
+	}
+}
+
+@media(max-width:968px) {
+	h1 {
+		font-size: 70px;
+	}
+
+	h2 {
+		font-size: 36px;
+	}
+
+	p,
+	li {
+		font-size: 14px;
+	}
+
+	.page {
+
+
+		.header {
+			&__nav {
+				padding-left: 100px !important;
+
+				.header__list {
+					:not(:last-child) {
+						padding-right: 50px !important;
+					}
+				}
+			}
+		}
+
+		.footer {
+			&__contant {
+				flex-direction: column;
+				padding: 40px !important;
+			}
+
+			&__contant-logo {
+				margin: 0px !important;
+
+				.h4__withLogo {
+					padding-bottom: 45px !important;
+				}
+			}
+
+			&__contant-social {
+				align-items: flex-start !important;
+				order: 2;
+			}
+
+			&__contant-nav {
+				padding: 40px 0px !important;
+				margin: 0px !important;
+				align-items: flex-start !important;
+
+				.nav__links {
+					align-items: flex-start !important;
+				}
+			}
+		}
+	}
+
+
+}
+
+@media (max-width: 750px) {
+	h1 {
+		font-size: 60px;
+	}
+
+	h2 {
+		font-size: 32px;
+	}
+
+	p,
+	li {
+		font-size: 14px;
+	}
+
+	.header {
+		&__container {
+			margin-top: 25px !important;
+		}
+	}
+}
+
+@media (max-width: 669px) {
+	h1 {
+		padding-bottom: 10px;
+		font-size: 42px;
+	}
+
+	h2 {
+		font-size: 28px;
+	}
+
+	p,
+	li {
+		font-size: 12px;
+	}
+
+	.page {
+		.header {
+			&__container {
+				height: 50px;
+
+				.header__logo {
+					height: 100%;
+
+					img {
+						height: 50px;
+						width: 59px;
+					}
+				}
+
+				.header__burger {
+					display: flex;
+				}
+			}
+
+			
+		}
+
+
+	}
+}
+
+
+@media (max-width: 590px) {
+	.footer {
+
+		button {
+			width: 250px !important;
+		}
+
+		.footer__contant {
+			.h4__withLogo {
+				h4 {
+					font-size: 30px !important;
+
+				}
+
+				align-items: flex-end;
+			}
+		}
+	}
+}

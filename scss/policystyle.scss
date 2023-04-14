@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+$__textColor: #F1F1F1;
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color: $__textColor;
+
+	background-color: #000;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 96px;
+	line-height: 122.5%;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 122.5%;
+	padding-bottom: 40px;
+}
+
+h4 {
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 122.5%;
+	text-align: center;
+}
+
+p,
+li {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 122.5%;
+}
+
+.social__icons__scale {
+
+	img {
+		transition: all 0.5s ease;
+		transform: scale(1.2);
+	}
+
+}
+
+.page {
+	overflow: hidden;
+	max-width: 1512px;
+	width: 100%;
+	background: linear-gradient(173.57deg, #232741 8.02%, #0F1320 22.01%);
+	margin: 0 auto;
+	position: relative;
+
+	.header {
+
+		padding: 0px 10vw 10vw;
+
+		&__container {
+			margin-top: 53px;
+			display: flex;
+		}
+
+		&__logo {
+			width: 65px;
+			height: 56px;
+		}
+
+		&__nav {
+			display: flex;
+			align-items: flex-end;
+			// text-align: center;
+			padding-left: 267px;
+			z-index: 1;
+
+			a {
+				text-decoration: none;
+				color: $__textColor;
+			}
+		}
+
+
+		&__list {
+			display: flex;
+
+			:not(:last-child) {
+				padding-right: 88px;
+			}
+		}
+
+		&__link {
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 122.5%;
+		}
+	}
+
+	.main {
+		padding: 0px 10vw;
+	}
+
+	.main__info {
+		padding-bottom: 6vw;
+	}
+
+	.h1__container {
+		:nth-child(2) {
+			color: #9e9e9e;
+		}
+
+		:last-child {
+			padding-top: 25px;
+		}
+	}
+
+	.info__blocks {
+		padding-top: 50px;
+
+
+		&__1 {
+			div {
+				:not(:last-child) {
+					padding-bottom: 20px;
+				}
+			}
+		}
+
+		&__2 {
+			p {
+				padding-bottom: 20px;
+			}
+		}
+
+		&__3 {
+			div {
+				:not(:last-child) {
+					padding-bottom: 20px;
+				}
+			}
+		}
+
+
+
+		&__5 {
+			div {
+				:first-child {
+					padding-bottom: 20px;
+				}
+			}
+		}
+
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+	max-width: 1512px;
+	width: 100%;
+	margin: 0 auto;
+	// height: 404px;
+	background-color: #1B202B;
+}
+
+
+
+.footer {
+
+	overflow: hidden;
+
+	&__contant {
+		display: flex;
+		padding: 0px 10vw;
+		// justify-content: space-between;
+		padding-bottom: 50px;
+		border-bottom: 1px solid #F1F1F1;
+	}
+
+	&__contant-logo {
+		margin-top: 55px;
+		width: 100%;
+
+		.h4__withLogo {
+			display: flex;
+			padding-bottom: 95px;
+
+			h4 {
+				padding-left: 30px;
+			}
+		}
+
+		.contact__us {
+
+			position: relative;
+
+			p {
+				margin-bottom: 25px;
+			}
+
+			button {
+
+
+				width: 283px;
+				height: 45px;
+				background-color: #F1F1F1;
+				border-radius: 60px;
+
+
+
+				color: #000;
+
+			}
+
+			.copy__link {
+
+				// padding-left: 20px;
+				transition: all 1s ease;
+				display: none;
+				position: absolute;
+				// left: 0px;
+				bottom: -30px;
+				color: #46C4FF;
+				background-color: #1C46A8;
+				width: fit-content;
+			}
+
+			.copy__link__block {
+				display: block !important;
+				// transform: translateY(-20px) !important;
+				transition: all 1s ease;
+			}
+
+		}
+
+	}
+
+	&__contant-social {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: center;
+
+		p {
+			padding-bottom: 20px;
+		}
+
+		.social__icons {
+			display: flex;
+
+			img {
+				width: 43px;
+				height: 43px;
+			}
+
+			:not(:last-child) {
+				margin-right: 15px;
+			}
+		}
+	}
+
+	&__contant-nav {
+		margin-top: 55px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		.policy {
+			display: flex;
+			justify-content: end;
+		}
+
+		a {
+			color: #F1F1F1;
+		}
+
+
+		.nav__links {
+			display: flex;
+			flex-direction: column;
+			align-items: end;
+
+			a {
+				text-decoration: none;
+			}
+		}
+
+
+		:not(:last-child) {
+			margin-bottom: 24px;
+		}
+
+	}
+
+	&__copyright {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 50px;
+		font-size: 14px;
+	}
+}

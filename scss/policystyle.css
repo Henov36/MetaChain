@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  color: #F1F1F1;
+  background-color: #000;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 122.5%;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 122.5%;
+  padding-bottom: 40px;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 122.5%;
+  text-align: center;
+}
+
+p,
+li {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122.5%;
+}
+
+.social__icons__scale img {
+  transition: all 0.5s ease;
+  transform: scale(1.2);
+}
+
+.page {
+  overflow: hidden;
+  max-width: 1512px;
+  width: 100%;
+  background: linear-gradient(173.57deg, #232741 8.02%, #0F1320 22.01%);
+  margin: 0 auto;
+  position: relative;
+}
+.page .header {
+  padding: 0px 10vw 10vw;
+}
+.page .header__container {
+  margin-top: 53px;
+  display: flex;
+}
+.page .header__logo {
+  width: 65px;
+  height: 56px;
+}
+.page .header__nav {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 267px;
+  z-index: 1;
+}
+.page .header__nav a {
+  text-decoration: none;
+  color: #F1F1F1;
+}
+.page .header__list {
+  display: flex;
+}
+.page .header__list :not(:last-child) {
+  padding-right: 88px;
+}
+.page .header__link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122.5%;
+}
+.page .main {
+  padding: 0px 10vw;
+}
+.page .main__info {
+  padding-bottom: 6vw;
+}
+.page .h1__container :nth-child(2) {
+  color: #9e9e9e;
+}
+.page .h1__container :last-child {
+  padding-top: 25px;
+}
+.page .info__blocks {
+  padding-top: 50px;
+}
+.page .info__blocks__1 div :not(:last-child) {
+  padding-bottom: 20px;
+}
+.page .info__blocks__2 p {
+  padding-bottom: 20px;
+}
+.page .info__blocks__3 div :not(:last-child) {
+  padding-bottom: 20px;
+}
+.page .info__blocks__5 div :first-child {
+  padding-bottom: 20px;
+}
+
+footer {
+  max-width: 1512px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #1B202B;
+}
+
+.footer {
+  overflow: hidden;
+}
+.footer__contant {
+  display: flex;
+  padding: 0px 10vw;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #F1F1F1;
+}
+.footer__contant-logo {
+  margin-top: 55px;
+  width: 100%;
+}
+.footer__contant-logo .h4__withLogo {
+  display: flex;
+  padding-bottom: 95px;
+}
+.footer__contant-logo .h4__withLogo h4 {
+  padding-left: 30px;
+}
+.footer__contant-logo .contact__us {
+  position: relative;
+}
+.footer__contant-logo .contact__us p {
+  margin-bottom: 25px;
+}
+.footer__contant-logo .contact__us button {
+  width: 283px;
+  height: 45px;
+  background-color: #F1F1F1;
+  border-radius: 60px;
+  color: #000;
+}
+.footer__contant-logo .contact__us .copy__link {
+  transition: all 1s ease;
+  display: none;
+  position: absolute;
+  bottom: -30px;
+  color: #46C4FF;
+  background-color: #1C46A8;
+  width: fit-content;
+}
+.footer__contant-logo .contact__us .copy__link__block {
+  display: block !important;
+  transition: all 1s ease;
+}
+.footer__contant-social {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footer__contant-social p {
+  padding-bottom: 20px;
+}
+.footer__contant-social .social__icons {
+  display: flex;
+}
+.footer__contant-social .social__icons img {
+  width: 43px;
+  height: 43px;
+}
+.footer__contant-social .social__icons :not(:last-child) {
+  margin-right: 15px;
+}
+.footer__contant-nav {
+  margin-top: 55px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer__contant-nav .policy {
+  display: flex;
+  justify-content: end;
+}
+.footer__contant-nav a {
+  color: #F1F1F1;
+}
+.footer__contant-nav .nav__links {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.footer__contant-nav .nav__links a {
+  text-decoration: none;
+}
+.footer__contant-nav :not(:last-child) {
+  margin-bottom: 24px;
+}
+.footer__copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 14px;
+}/*# sourceMappingURL=policystyle.css.map */
