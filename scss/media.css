@@ -71,7 +71,7 @@
     font-size: 38px !important;
   }
   .header__nav {
-    padding-left: 180px !important;
+    padding-left: 100px !important;
   }
   .section__partnerships .partnerships__h2 {
     padding-bottom: 35px !important;
@@ -94,13 +94,17 @@
   .page .header__nav {
     padding-left: 100px !important;
   }
-  .page .header__nav .header__list :not(:last-child) {
-    margin-right: 50px !important;
+  .page .header__nav .social__img {
+    display: none;
   }
   .page .decorate__elem {
     width: 580px !important;
     height: 800px !important;
     filter: opacity(0.4);
+  }
+  .page .section__home .section__home-container .social__icons-hidden {
+    display: block;
+    padding-top: 50px;
   }
   .page .section__home .section__home-container .home-container-info h1 {
     font-weight: 700;
@@ -180,6 +184,15 @@
   .header__container {
     margin-top: 25px !important;
   }
+  .header__container .header__nav {
+    padding-left: 75px !important;
+  }
+  .header__container .header__nav .header__list :not(:last-child) {
+    margin-right: 40px !important;
+  }
+  .header .header__list :not(:last-child) {
+    margin-right: 50px !important;
+  }
   .section__solutions-container .solutions-container-blocks .block h3 {
     font-size: 28px;
     padding-top: 35px;
@@ -257,6 +270,11 @@
     width: 120px !important;
     margin-bottom: 10px;
   }
+}
+@media (max-width: 590px) {
+  h2 {
+    font-size: 32px !important;
+  }
   .page .header__container {
     align-items: flex-end !important;
     height: 50px;
@@ -279,11 +297,6 @@
   }
   .page .header__nav .header__list :not(:last-child) {
     margin-right: 20px !important;
-  }
-}
-@media (max-width: 590px) {
-  h2 {
-    font-size: 32px !important;
   }
   .page .main .section__home h1 {
     font-size: 40px !important;
@@ -397,13 +410,13 @@
     width: 100% !important;
   }
   .page .header__nav {
-    padding-left: 20px !important;
+    padding-left: 15px !important;
   }
   .page .header__nav .header__list :not(:last-child) {
-    margin-right: 15px !important;
+    margin-right: 10px !important;
   }
   .page .header__nav .header__list .header__link {
-    font-size: 14px !important;
+    font-size: 12px !important;
   }
   .contact__us button {
     font-size: 14px !important;

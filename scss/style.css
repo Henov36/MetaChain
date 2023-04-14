@@ -2,7 +2,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #F1F1F1;
-  background-color: #000;
+  background: linear-gradient(173.57deg, #232741 8.02%, #0F1320 22.01%);
 }
 
 h2 {
@@ -37,7 +37,7 @@ h4 {
   transition: all 0.5s ease;
 }
 .social__img :not(:last-child) {
-  margin-right: 39px;
+  margin-right: 20px;
 }
 
 .social__icons__scale img {
@@ -45,8 +45,17 @@ h4 {
   transform: scale(1.2) !important;
 }
 
+.social__icons-hidden {
+  display: none;
+}
+
 .section {
   transition: opacity 0.5s;
+}
+
+.wrapper {
+  max-width: 1512px;
+  margin: 0 auto;
 }
 
 .section__hidden {
@@ -77,9 +86,7 @@ main {
 
 .page {
   overflow: hidden;
-  max-width: 1512px;
   width: 100%;
-  background: linear-gradient(173.57deg, #232741 8.02%, #0F1320 22.01%);
   margin: 0 auto;
   position: relative;
   z-index: 4314321;
@@ -147,6 +154,7 @@ main {
   justify-content: space-between;
   padding-left: 120px;
   z-index: 1;
+  width: 100%;
 }
 .header__nav .social__img {
   display: flex;
